@@ -36,7 +36,7 @@ const About = () => {
       
       <div className="about-container">
         <div className="about-left">
-          <img src="./src/assets/images/labrador.jpg" alt="Professional headshot" />
+          <img src="labrador.jpg" alt="Professional headshot" />
           <div className="experience-cards">
             <div className="exp-card">
               <span className="number">1+</span>
