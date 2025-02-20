@@ -1086,7 +1086,7 @@ section {
   transform: translateY(-3px);
   color: rgb(42, 78, 197);
 }
-
+         
 .hero, .about, .projects, .contact {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(5px);

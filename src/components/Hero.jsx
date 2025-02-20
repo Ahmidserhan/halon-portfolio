@@ -14,7 +14,7 @@ const Hero = () => {
       star.style.animation = `twinkle ${Math.random() * 4 + 2}s infinite`;
       starsContainer.appendChild(star);
     }
-
+        
     for (let i = 0; i < 5; i++) {
       const shootingStar = document.createElement('div');
       shootingStar.className = 'hero-shooting-star';

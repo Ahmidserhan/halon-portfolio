@@ -80,7 +80,7 @@ const Navbar = () => {
             <span className="link-underline"></span>
           </Link>
         </li>
-        <li>
+        <li>        
           <Link to="/about" className="nav-link">
             <FaUser className="nav-icon" />
             <span className="link-text">About</span>
