@@ -13,7 +13,7 @@ const About = () => {
         { name: "Bootstrap", icon: <FaBootstrap /> }
       ] 
     },
-    {
+    {           
       category: "Backend & Framework",
       items: [
         { name: "Python", icon: <FaPython /> },
