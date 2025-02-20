@@ -31,7 +31,7 @@ function App() {
       shootingStar.style.animation = `twinkle ${Math.random() * 2 + 1}s infinite`;
       starsContainer.appendChild(shootingStar);
     }
-    
+             
     document.body.appendChild(starsContainer);
 
     setTimeout(() => {

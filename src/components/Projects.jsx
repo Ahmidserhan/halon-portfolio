@@ -24,7 +24,7 @@ const Projects = () => {
       category: "Full Stack"
     }
   ];
-
+          
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => 
       prevIndex === projects.length - 1 ? 0 : prevIndex + 1

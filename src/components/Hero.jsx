@@ -23,7 +23,7 @@ const Hero = () => {
       shootingStar.style.animation = `twinkle ${Math.random() * 2 + 1}s infinite`;
       starsContainer.appendChild(shootingStar);
     }
-    
+                
     document.querySelector('.hero').appendChild(starsContainer);
 
     return () => {

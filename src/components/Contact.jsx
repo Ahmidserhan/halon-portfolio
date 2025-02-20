@@ -16,7 +16,7 @@ const Contact = () => {
           <div className="underline"></div>
           <p className="section-subtitle">Let's create something amazing together</p>
         </div>
-
+             
         <div className="contact-content">
           <motion.div 
             className="contact-info"
