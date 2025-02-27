@@ -61,7 +61,10 @@ const About = () => {
                 <h4>{skillGroup.category}</h4>
                 <div className="skill-tags">
                   {skillGroup.items.map((skill, i) => (
-                      <span key={i} className="skill-tag" style={{ background: 'var(--background-light)' }}>
+                    <span 
+                      key={i} 
+                      className={`skill-tag ${skill.name.toLowerCase()}`}
+                    >
                       {skill.icon}
                       <span className="skill-name">{skill.name}</span>
                     </span>
