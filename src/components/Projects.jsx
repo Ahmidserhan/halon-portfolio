@@ -6,6 +6,7 @@ import { SiMongodb, SiSocketdotio, SiMysql } from 'react-icons/si';
 
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [touchStart, setTouchStart] = useState(null);
   
   const projects = [
     {
@@ -35,6 +36,23 @@ const Projects = () => {
     setCurrentIndex((prevIndex) => 
       prevIndex === 0 ? projects.length - 1 : prevIndex - 1
     );
+  };
+
+  const handleTouchStart = (e) => {
+    setTouchStart(e.touches[0].clientX);
+  };
+
+  const handleTouchMove = (e) => {
+    if (!touchStart) return;
+    
+    const touchEnd = e.touches[0].clientX;
+    const diff = touchStart - touchEnd;
+
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) nextSlide();
+      else prevSlide();
+      setTouchStart(null);
+    }
   };
 
   return (
