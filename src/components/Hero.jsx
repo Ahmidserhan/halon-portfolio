@@ -14,7 +14,7 @@ const Hero = () => {
       star.style.animation = `twinkle ${Math.random() * 4 + 2}s infinite`;
       starsContainer.appendChild(star);
     }
-        
+
     for (let i = 0; i < 5; i++) {
       const shootingStar = document.createElement('div');
       shootingStar.className = 'hero-shooting-star';
@@ -23,7 +23,7 @@ const Hero = () => {
       shootingStar.style.animation = `twinkle ${Math.random() * 2 + 1}s infinite`;
       starsContainer.appendChild(shootingStar);
     }
-                
+
     document.querySelector('.hero').appendChild(starsContainer);
 
     return () => {
@@ -50,7 +50,13 @@ const Hero = () => {
       </div>
       <div className="hero-image">
         <div className="image-wrapper">
-          <img src="labrador.jpg" alt="Profile" />
+          <img
+            src="labrador.jpg"
+            alt="Profile"
+            loading="lazy"
+            srcSet="labrador-small.jpg 300w, labrador.jpg 600w"
+            sizes="(max-width: 768px) 300px, 600px"
+          />
         </div>
       </div>
     </section>
