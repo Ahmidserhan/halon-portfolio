@@ -12,8 +12,8 @@ const Blog = () => {
       summary: "Our journey started in the center of Manila, where we visited the historic sites of Intramuros and Rizal Park.",
       content: "Our journey started in the center of Manila, where we visited the historic sites of Intramuros and Rizal Park. As we explored the cobblestone lanes of Intramuros, we were captivated by the Spanish colonial architecture, ancient churches, and preserved relics that narrated tales of life during the colonial era. A key moment was touring Fort Santiago, where we wandered through the very halls that Jose Rizal occupied in his last days. Afterward, we walked through Rizal Park, savoring its expansive areas and tranquil atmosphere. Being in front of the Rizal Monument was significant, as it symbolizes our national identity. We observed tourists and families appreciating the park, which highlighted for us how history and contemporary living harmoniously coexist in this location. It was an excellent beginning that ignited our interest and admiration for Philippine culture.",
       images: [
-        "/day1/day1 (1).jpeg",
-        "/day1/day1 (2).jpeg",
+        "/day1/day1 (1).jpeg", 
+        "/day1/day1 (2).jpeg", 
         "/day1/day1 (3).jpeg",
         "/day1/day1 (4).jpeg",
         "/day1/day1 (5).jpeg",
