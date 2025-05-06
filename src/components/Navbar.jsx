@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaHome, FaUser, FaProjectDiagram, FaEnvelope, FaBlog, FaBriefcase } from 'react-icons/fa';
+import { FaHome, FaUser, FaProjectDiagram, FaEnvelope, FaBlog, FaBriefcase, FaCertificate } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -98,6 +98,13 @@ const Navbar = () => {
           <Link to="/projects" className="nav-link" onClick={() => setMobileMenuOpen(false)}>
             <FaProjectDiagram className="nav-icon" />
             <span className="link-text">Projects</span>
+            <span className="link-underline"></span>
+          </Link>
+        </li>
+        <li>
+          <Link to="/certification" className="nav-link" onClick={() => setMobileMenuOpen(false)}>
+            <FaCertificate className="nav-icon" />
+            <span className="link-text">Certification</span>
             <span className="link-underline"></span>
           </Link>
         </li>
