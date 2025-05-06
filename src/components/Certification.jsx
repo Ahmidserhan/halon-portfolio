@@ -118,7 +118,7 @@ const Certification = () => {
               />
             </div>
           </div>
-        </div>
+        </div>  
       )}
     </section>
   );
