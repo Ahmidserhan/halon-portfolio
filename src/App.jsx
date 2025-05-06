@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Experience from './components/Experience';
+import Certification from './components/Certification';
 import './App.css';
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/certification" element={<Certification />} />
         </Routes>
       </div>
     </BrowserRouter>
