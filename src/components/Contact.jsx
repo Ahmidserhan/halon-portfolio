@@ -30,12 +30,12 @@ const Contact = () => {
             
             <div className="contact-email">
               <i className="fas fa-envelope"></i>
-              <span>ahmidserhan@example.com</span>
+              <span>halonahmidserhan5@gmail.com</span>
             </div>
             
             <div className="contact-social-links">
               <motion.a 
-                href="https://facebook.com" 
+                href="https://www.facebook.com/ahmidserhan.halon.9/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
@@ -44,7 +44,7 @@ const Contact = () => {
                 <FaFacebook />
               </motion.a>
               <motion.a 
-                href="https://github.com" 
+                href="https://github.com/Ahmidserhan" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
@@ -53,7 +53,7 @@ const Contact = () => {
                 <FaGithub />
               </motion.a>
               <motion.a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/ahmidserhan-halon-a10690360/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
@@ -69,14 +69,14 @@ const Contact = () => {
                 whileHover={{ scale: 1.05 }}
               >
                 <i className="fas fa-map-marker-alt"></i>
-                <span>New York, NY</span>
+                <span>Zamboanga City, Philippines</span>
               </motion.div>
               <motion.div
                 className="contact-item"
                 whileHover={{ scale: 1.05 }}
               >
                 <i className="fas fa-phone"></i>
-                <span>+1 234 567 890</span>
+                <span>+639270640617</span>
               </motion.div>
             </div>
           </motion.div>
